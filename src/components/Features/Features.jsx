@@ -62,9 +62,9 @@ function Features() {
           <div className="bento-grid" aria-label="AI automation features">
             {featuresData.map((feature, index) => (
               <article
-                className={`bento-card bento-card-${index + 1} ${
-                  activeIndex === index ? "active" : ""
-                }`}
+    className={`bento-card bento-card-${index + 1} ${
+  activeIndex === index ? "active" : ""
+}`}
                 key={feature.title}
                 onMouseEnter={() => updateActiveIndex(index)}
                 onFocus={() => updateActiveIndex(index)}
