@@ -11,7 +11,7 @@ function Pricing() {
 
   return (
     <section className="pricing-section" id="pricing" aria-labelledby="pricing-title">
-      <div className="container">
+      <div className="container reveal-on-scroll">
         <div className="pricing-top">
           <div className="section-heading">
             <span className="section-kicker">
