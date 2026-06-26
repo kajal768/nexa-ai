@@ -14,7 +14,7 @@ const loopItems = [...testimonials, ...testimonials];
 function Testimonials() {
   return (
    <section className="testimonials-section" id="testimonials" aria-labelledby="testimonials-title">
-      <div className="container">
+     <div className="container reveal-on-scroll">
         <div className="section-heading center-heading">
           <span className="section-kicker">
             <i className="bi bi-chat-heart-fill"></i>
@@ -28,7 +28,7 @@ function Testimonials() {
       <div className="testimonial-marquee" aria-label="Customer testimonials carousel">
         <div className="testimonial-row">
           {loopItems.map((item, index) => (
-           <article className="small-testimonial-card reveal-on-scroll">
+           <article className="small-testimonial-card ">
               <div className="stars">
                 <i className="bi bi-star-fill"></i>
                 <i className="bi bi-star-fill"></i>
