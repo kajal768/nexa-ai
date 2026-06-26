@@ -41,7 +41,7 @@ function Features() {
       id="features"
       aria-labelledby="features-title"
     >
-      <div className="container">
+      <div className="container reveal-on-scroll">
         <div className="section-heading">
           <span className="section-kicker">
             <i className="bi bi-grid-1x2-fill"></i>
@@ -62,7 +62,7 @@ function Features() {
           <div className="bento-grid" aria-label="AI automation features">
             {featuresData.map((feature, index) => (
               <article
-    className={`bento-card bento-card-${index + 1} ${
+  className={`bento-card bento-card-${index + 1} ${
   activeIndex === index ? "active" : ""
 }`}
                 key={feature.title}
