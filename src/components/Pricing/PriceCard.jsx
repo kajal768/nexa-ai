@@ -3,11 +3,7 @@ import PriceText from "./PriceText";
 
 const PriceCard = memo(function PriceCard({ tier, billing, currency, suffix }) {
   return (
-    <article
-  className={`price-card reveal-on-scroll reveal-delay-${(tier.id % 3) + 1} ${
-    tier.popular ? "popular" : ""
-  }`}
->
+ <article className={`price-card reveal-on-scroll ${tier.popular ? "popular reveal-delay-2" : ""}`}>
       {tier.popular && <span className="popular-badge">Most Popular</span>}
 
       <h3>{tier.name}</h3>
