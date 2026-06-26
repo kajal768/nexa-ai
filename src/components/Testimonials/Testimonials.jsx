@@ -28,7 +28,7 @@ function Testimonials() {
       <div className="testimonial-marquee" aria-label="Customer testimonials carousel">
         <div className="testimonial-row">
           {loopItems.map((item, index) => (
-            <article className="small-testimonial-card" key={`${item.name}-${index}`}>
+           <article className="small-testimonial-card reveal-on-scroll">
               <div className="stars">
                 <i className="bi bi-star-fill"></i>
                 <i className="bi bi-star-fill"></i>
