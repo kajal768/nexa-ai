@@ -6,6 +6,8 @@ import Features from "./components/Features/Features";
 import Pricing from "./components/Pricing/Pricing";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Footer from "./components/Footer/Footer";
+import Contact from "./components/Contact/Contact";
+
 
 function App() {
   useEffect(() => {
@@ -39,6 +41,7 @@ function App() {
         <Features />
         <Pricing />
         <Testimonials />
+        <Contact/>
       </main>
 
       <Footer />
